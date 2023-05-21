@@ -5,11 +5,35 @@ Official repository of the paper Privacy-friendly Synthetic Data for the Develop
 
 ![grafik](https://user-images.githubusercontent.com/85616215/158406086-b413c5b9-e4da-4e0e-be01-4de71d279979.png)
 
+# Morph Detect: AI Solution for Detecting Biometric Face Morphing Attacks
 
-Paper available under this [LINK](https://arxiv.org/abs/2203.06691)
+This project aims to develop an AI-driven solution for identifying manipulated biometric facial images and detecting biometric face morphing attacks. The goal is to achieve a high detection rate while reducing false-positive cases.
+
+## Project Details
+
+- Duration: January 2023 to April 2023
+- Associated with Northeastern University
+- Collaborated with Kingdom Capital, MO under the mentorship of Mr. Ernest Smiley
+
+## Project Highlights
+
+- Developed an AI-driven solution for detecting manipulated biometric facial images, resulting in an 80% reduction in false-positive cases and achieving a high detection rate of 95%.
+- Trained and evaluated the MixFaceNet model using the CASIA Web-face dataset, which consists of over 25,000 real and synthetic images. The model achieved an accuracy of 98.5% and an F1 score of 0.95 in identifying attacked biometric facial images.
+- Implemented the Morph Detect project using CUDA and the latest PyTorch version, resulting in a 50% increase in processing speed. The project utilized MixFaceNet, a deep learning network specifically designed for detecting face morphing attacks. MixFaceNet outperformed VGG16 and ResNet50 models in terms of efficiency and accuracy.
+
+## Repository Structure
+
+- `/Code Files/`: Contains the code files for the Morph Detect project.
+- `/Input Files/`: Includes the input files required for running the code.
+- `/DataSet/`: Holds the CASIA Web-face dataset used for training and evaluation.
+
+## License
+
+This project is licensed under the Apache License 2.0. Please see the [LICENSE](LICENSE) file for more details.
+
+## Contact Information
 
 
-![grafik](https://user-images.githubusercontent.com/85616215/158062680-a4275e0f-6e8a-4728-97f9-1b44e03ac53d.png)
 
 
 
@@ -68,31 +92,5 @@ If you use SMDD dataset, please cite the following [paper](https://arxiv.org/abs
     pages     = {1606-1617}
 }
 ```
-
-
-If you use the MixFaceNet-MAD, please cite the paper above and the original MixFaceNet paper ([repo](https://github.com/fdbtrs/mixfacenets), [paper](https://ieeexplore.ieee.org/document/9484374)):
-
-```
-@inproceedings{mixfacenet,
-  author    = {Fadi Boutros and
-               Naser Damer and
-               Meiling Fang and
-               Florian Kirchbuchner and
-               Arjan Kuijper},
-  title     = {MixFaceNets: Extremely Efficient Face Recognition Networks},
-  booktitle = {International {IEEE} Joint Conference on Biometrics, {IJCB} 2021,
-               Shenzhen, China, August 4-7, 2021},
-  pages     = {1--8},
-  publisher = {{IEEE}},
-  year      = {2021},
-  url       = {https://doi.org/10.1109/IJCB52358.2021.9484374},
-  doi       = {10.1109/IJCB52358.2021.9484374},
-}
-```
-
-##
-
-**License:**
-
-The dataset, the implementation, or trained models, use is restricted to research purpuses. The use of the dataset or the implementation/trained models for product development or product competetions (incl. NIST FRVT MORPH) is not allowed.
-This project is licensed under the terms of the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. Copyright (c) 2020 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt.
+For any inquiries or further information, please contact:
+Email: yashwanthbalan75@gmail.com
