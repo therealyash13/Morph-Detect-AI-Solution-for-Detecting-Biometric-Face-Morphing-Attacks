@@ -1,7 +1,5 @@
 # Morph-Detect-AI-Solution-for-Detecting-Biometric-Face-Morphing-Attacks
 
-# Morph Detect: AI Solution for Detecting Biometric Face Morphing Attacks
-
 This project aims to develop an AI-driven solution for identifying manipulated biometric facial images and detecting biometric face morphing attacks. The goal is to achieve a high detection rate while reducing false-positive cases.
 
 ## Project Details
