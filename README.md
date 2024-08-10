@@ -1,5 +1,4 @@
-# SMDD-Synthetic-Face-Morphing-Attack-Detection-Development-dataset
-Official repository of the paper Privacy-friendly Synthetic Data for the Development of Face Morphing Attack Detectors
+# SMDD-Synthetic-Face-Morphing-Attack-Detection-Development
 
 *** Accepted at CVPR workshops 2022 ***
 
@@ -12,8 +11,8 @@ This project aims to develop an AI-driven solution for identifying manipulated b
 ## Project Details
 
 - Duration: January 2023 to April 2023
-- Associated with Northeastern University
-- Collaborated with Kingdom Capital, MO under the mentorship of Mr. Ernest Smiley
+- Associated with Northeastern University and Bentley Systems, NY
+- Collaborated with Bentley Systems, NY under the mentorship of Mr. Ernest Smiley
 
 ## Project Highlights
 
@@ -32,7 +31,12 @@ This project aims to develop an AI-driven solution for identifying manipulated b
 This project is licensed under the Apache License 2.0. Please see the [LICENSE](LICENSE) file for more details.
 
 ## Contact Information
+Project Supervisor: smileyern@bentley.com
+Lead Scientist and Project Supervisor: Mimoza Dimodugno, PhD. - dimodugno.m@northeastern.edu
 
+Team:
+Lead Research Scientist and Developer: Yashwanth Balan Arumugam, arumugam.y@northeastern.edu
+Vice, Developer and Data Engineer: Pragya Mishra, mishra.prag@northeastern.edu
 
 
 
@@ -54,7 +58,7 @@ image_path,label
 /image_dir/image_file_4.png, attack
 ```
 ## Experiment
-The main.py file can be used for training and test:
+The main.py file can be used for training and testing:
 1. When training and test:
     ```
     python main.py \
@@ -65,7 +69,7 @@ The main.py file can be used for training and test:
       --is_test True \
       --output_dir 'output' \
     ```
-2. When test by using pretrained weight, first download the model and give the model path:
+2. When test by using pre-trained weight, first download the model and give the model path:
     ```
     python main.py \
       --test_csv_path 'test.csv' \
@@ -80,7 +84,7 @@ More detailed information can be found in main.py.
 
 **Citation:**
 
-If you use SMDD dataset, please cite the following [paper](https://arxiv.org/abs/2203.06691):
+If you use the SMDD dataset, please cite the following [paper](https://arxiv.org/abs/2203.06691):
 
 ```
 @article{SMDD,
